@@ -1,0 +1,87 @@
+hr {
+	margin: 0px;
+}
+
+img {
+  border:1px solid #;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;  
+}
+
+.contact-text {
+	padding-top: 10px;
+	background-color: #ffffff;
+}
+
+.executive-summary {
+    padding: 10px;
+	color: white; 
+	background: rgb(0, 0, 0); /* fallback color */
+	background: rgba(0, 0, 0, 0.75);
+}
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+.video-container iframe,  
+.video-container object,  
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.map-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  margin-left: 20px; /* AM */
+  margin-right: 20px; /* AM */
+  height: 0;
+  overflow: hidden;	
+}
+
+.map-container iframe,   
+.map-container object,  
+.map-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+/*  width: 100%;
+  height: 100%;*/
+}
+
+/* Styles for XS devices only */
+@media (max-width: 768px) {
+
+  .contact-text {
+  	font-size: 12px;
+  }
+}
+
+/* Styles for S devices and below */
+@media (max-width: 992px) {
+
+  .treatments.dropdown {
+  	display: none;
+  }
+}
+
+/* Styles for M devices and above */
+@media (min-width: 992px) {
+  .md-pull-right {
+  	float: right;
+  }
+  
+  .treatments.no-dropdown {
+  	display: none;
+  }  
+}
