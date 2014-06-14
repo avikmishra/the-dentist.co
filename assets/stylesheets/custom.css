@@ -70,9 +70,9 @@ img {
 /* Styles for S devices and below */
 @media (max-width: 992px) {
 
-  .treatments.dropdown {
+  /*.treatments.dropdown {
   	display: none;
-  }
+  }*/
 }
 
 /* Styles for M devices and above */
@@ -81,7 +81,7 @@ img {
   	float: right;
   }
   
-  .treatments.no-dropdown {
+  /*.treatments.no-dropdown {
   	display: none;
-  }  
+  }*/  
 }
